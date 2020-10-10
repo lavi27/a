@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <style>
         body {
-            background-image: url('background.png');
+            background-image: url('Imgs/background.png');
             background-repeat: no-repeat;
             background-position: right bottom;
+            background-size: 30%;
         }
 
         @font-face {
             font-family:'NotoSans';
             src: url('NotoSansCJKkr-Thin'),
-                url('font/NotoSansCJKkr-Thin.otf');
+                url('Fonts/NotoSansCJKkr-Thin.otf');
         }
         .font-I{
             font-family: 'NotoSans', sans-serif;
@@ -21,27 +22,8 @@
             font-size: 20px
         }
 
-        img {
-            width: 100%;
-        }
-
-        /* input {
-            vertical-align: middle;
-        }
-        input.img-button {
-            background: url( "btn-I.png" ) no-repeat;
-            border: none;
-            width: 1200px;
-            height: 330px;
-            cursor: pointer;
-        } */
-
-        #btn-I{
-            width: 250px;
-            height: 100px;
-            background-color: #7085d1;
-            color: #fff;
-            border: 10px
+        .btn-I{
+            width: 17%;
         }
 
         body { background-color: #fff; }
@@ -58,9 +40,8 @@
             display: block;
             clear:both;
         }
-        li {
-            float: right;
-        }
+        li { float: right; }
+
         li a {
             display: block;
             color: white;
@@ -78,10 +59,10 @@
 </head>
 <body>
     <ul>
-      <!-- <li><a href="#소개">소개</a></li>
+      <li><a href="#소개">소개</a></li>
       <li><a href="#후원">후원</a></li>
       <li><a href="#유튜브">유튜브</a></li>
-      <li><a href="#FnQ">FnQ</a></li> -->
+      <li><a href="#FnQ">FnQ</a></li>
     </ul>
 
     <pre class="font-I">
@@ -99,17 +80,13 @@
     관심분야: 보고 듣는 것.  또한 그 뒤에서 일어나는 일.  (code)
     이메일:
     </pre>
-    
-    <button type="button" id="btn-I" onclick="location.href='https://discord.com/channels/@me/469008754097127434' ">디스코드 친구추가</button>
-    
-     <!-- <form>
-        <p>
-            <input type="button" class="img-button">
-        </p>
-    </form>  -->
+
+    <a href="https://discord.com/channels/@me/713722961185472542">
+        <img class="btn-I" src="Imgs/btn-I.png" alt="디스코드 친구추가">
+    </a>
 
     <div style="text-align: center;">
-        <embed width="400" height="300" src="https://www.youtube.com/v/XAwEz-_sg9k&autoplay=1&rel=0&autohide=1&Loop=1&playlist=XAwEz-_sg9k&volume=3" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
+        <embed width="430" height="100" src="https://www.youtube.com/v/XAwEz-_sg9k&autoplay=1&rel=0&autohide=1&Loop=1&playlist=XAwEz-_sg9k&volume=3" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed>
     </div>
 </body>
 </html>
