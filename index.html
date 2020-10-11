@@ -8,7 +8,7 @@
             background-image: url('Imgs/background.png');
             background-repeat: no-repeat;
             background-position: right bottom;
-            background-size: 30%;
+            background-size: 360px;
         }
 
         @font-face {
@@ -22,8 +22,16 @@
             font-size: 20px
         }
 
+        .see{
+            position: relative;
+            left: 10px;
+            top: 10px;
+        }
+
         .btn-I{
-            width: 17%;
+            width: 180px;
+            position: relative;
+            top: 10px;
         }
 
         body { background-color: #fff; }
@@ -34,6 +42,7 @@
             padding: 0;
             height: 46px;
             background: linear-gradient( to left, #FF03E2, #03AAFE );   
+            border-radius: 10px;
         }
         ul:after{
             content:'';
@@ -46,7 +55,7 @@
             display: block;
             color: white;
             text-align: center;
-            padding: 14px 16px;
+            padding: 14px;
             text-decoration: none;
         }
         .active {
@@ -57,32 +66,34 @@
         }
     </style>
 </head>
+
 <body>
     <ul>
-      <li><a href="#소개">소개</a></li>
-      <li><a href="#후원">후원</a></li>
-      <li><a href="#유튜브">유튜브</a></li>
-      <li><a href="#FnQ">FnQ</a></li>
+      <li><a href="#소개" title="소개">소개</a></li>
+      <li><a href="#후원" title="후원">후원</a></li>
+      <li><a href="#유튜브" title="유튜브">유튜브</a></li>
+      <li><a href="#FnQ" title="FnQ">FnQ</a></li>
     </ul>
 
-    <pre class="font-I">
-    안녕하세요 라비입니다.
+    <div class= "see">
+        <div class="font-I">
+안녕하세요 라비입니다.<br>
+<br>
+프로젝트 공유 주기: 2주<br>
+스크래치 접속 주기: 2일<br>
+카러플 접속 주기: 되도록 매일<br>
+영상 독학: 미뤄둠<br>
+fl studio 독학: 되도록 2일<br>
+코딩(html, css, js, py) 독학: 불규칙<br>
+유튜브 동영상 업로드 주기: 불규칙<br>
+유튜브 스트리밍 주기: 불규칙, 추후에 주마다 시행 할 예정<br>
+<br>
+관심분야: 보고 듣는 것.  또한 그 뒤에서 일어나는 일.  (code)<br>
+        </div>
+        <a href="https://discord.gg/t8jtUfp" title="디스코드 친구추가" target="_blank">
+            <img class="btn-I" src="Imgs/btn-I.png" alt="디스코드 친구추가">
+        </a>
+    </div>
 
-    프로젝트 공유 주기: 2주
-    스크래치 접속 주기: 2일
-    카러플 접속 주기: 되도록 매일
-    영상 독학: 미뤄둠
-    fl studio 독학: 되도록 2일
-    코딩(html, css, js, py) 독학: 불규칙
-    유튜브 동영상 업로드 주기: 불규칙
-    유튜브 스트리밍 주기: 불규칙, 추후에 주마다 시행 할 예정
-
-    관심분야: 보고 듣는 것.  또한 그 뒤에서 일어나는 일.  (code)
-    이메일:
-    </pre>
-
-    <a href="https://discord.com/channels/@me/713722961185472542">
-        <img class="btn-I" src="Imgs/btn-I.png" alt="디스코드 친구추가">
-    </a>
 </body>
 </html>
