@@ -4,15 +4,15 @@
     <head>
         <meta charset="UTF-8">
         <style>
-            figure.snip1432 {
-            background: #000000;
-            }
+            figure.snip1432 { background: #000000; }
+
             figure.snip1432 * {
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
             -webkit-transition: all 0.6s ease;
             transition: all 0.6s ease;
             }
+
             figure.snip1432 img {
             opacity: 1;
             width: 100%;
@@ -20,42 +20,40 @@
             -webkit-transition: opacity 0.1s;
             transition: opacity 0.1s;
             }
+
             figure.snip1432:hover img,
-            figure.snip1432.hover img {
-            opacity: 0.5;
-            }
-            figure.snip1432{
+            figure.snip1432.hover img { opacity: 0.5; }
+
+            figure.snip1432 {
                 width: 180px;
                 position: relative;
                 top: 10px;
             }
 
-            body{
+            body {
                 background-image: url('Imgs/background.png');
                 background-repeat: no-repeat;
                 background-position: right bottom;
-                background-size: 360px;
+                background-size: 40vw;
+                background-color: #333;
             }
 
-            @font-face{
-                font-family:'NotoSans';
-                src: url('NotoSansCJKkr-Thin'),
-                    url('Fonts/NotoSansCJKkr-Thin.otf');
-            }
+            @font-face{ font-family:'NotoSans-Thin'; src: url('Fonts/NotoSansCJKkr-Thin.otf'); }
+            @font-face{ font-family:'NotoSans-Bold'; src: url('Fonts/NotoSansCJKkr-Bold.otf'); }
 
-            figure.snip1432{
-                font-family: 'NotoSans', sans-serif;
-                color: #000;
+            .font-I {
+                color: #fff;
+                font-family: 'NotoSans-Thin';
                 font-size: 2.1Vw
             }
 
-            .see{
+            .see {
                 position: relative;
                 left: 10px;
                 top: 10px;
             }
 
-            ul{
+            ul {
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
@@ -63,28 +61,28 @@
                 background: linear-gradient( to left, #FF03E2, #03AAFE );   
                 border-radius: 10px;
             }
-            ul:after{
+
+            ul:after {
                 content:'';
                 display: block;
                 clear:both;
             }
-            li{
-                float: right;
-            }
 
-            li a{
+            li{ float: right; }
+
+            li a {
                 display: block;
                 color: white;
+                font-family: 'NotoSans-Bold';
                 text-align: center;
                 padding: 14px;
                 text-decoration: none;
             }
-            .active{
-                background-color: #0004;
-            }
-            li a:hover:not(.active){
-                background-color: #0002;
-            }
+
+            .active{ background-color: #0004; }
+
+            li a:hover:not(.active){ background-color: #0002; }
+
         </style>
         <script>
         </script>
