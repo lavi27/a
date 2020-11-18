@@ -4,38 +4,14 @@
     <head>
         <meta charset="UTF-8">
         <style>
-            figure.snip1432 { background: #000000; }
-
-            figure.snip1432 * {
-            -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-            -webkit-transition: all 0.6s ease;
-            transition: all 0.6s ease;
-            }
-
-            figure.snip1432 img {
-            opacity: 1;
-            width: 100%;
-            vertical-align: top;
-            -webkit-transition: opacity 0.1s;
-            transition: opacity 0.1s;
-            }
-
-            figure.snip1432:hover img,
-            figure.snip1432.hover img { opacity: 0.5; }
-
-            figure.snip1432 {
-                width: 180px;
-                position: relative;
-                top: 10px;
-            }
 
             body {
                 background-image: url('Imgs/background.png');
                 background-repeat: no-repeat;
-                background-position: right bottom;
+                background-position: right;
                 background-size: 40vw;
-                background-color: #333;
+
+                background-position-y: 1cm;
             }
 
             @font-face{ font-family:'NotoSans-Thin'; src: url('Fonts/NotoSansCJKkr-Thin.otf'); }
@@ -44,7 +20,7 @@
             .font-I {
                 color: #fff;
                 font-family: 'NotoSans-Thin';
-                font-size: 2.1Vw
+                font-size: 1.9Vw
             }
 
             .see {
@@ -59,7 +35,6 @@
                 padding: 0;
                 height: 46px;
                 background: linear-gradient( to left, #FF03E2, #03AAFE );   
-                border-radius: 10px;
             }
 
             ul:after {
@@ -75,13 +50,16 @@
                 color: white;
                 font-family: 'NotoSans-Bold';
                 text-align: center;
-                padding: 14px;
+                padding: 12px;
+                font-size: 16px;
                 text-decoration: none;
             }
 
             .active{ background-color: #0004; }
 
             li a:hover:not(.active){ background-color: #0002; }
+
+            #menu {background-color: #03AAFE;}
 
         </style>
         <script>
@@ -90,34 +68,20 @@
 
     <body>
         <ul>
-            <li><a href="#소개" title="소개">소개</a></li>
-            <li><a href="#후원" title="후원">후원</a></li>
-            <li><a href="#유튜브" title="유튜브">유튜브</a></li>
+            <li><a href="#int" title="소개">소개</a></li>
+            <li><a href="#don" title="후원">후원</a></li>
+            <li><a href="#ytb" title="유튜브">유튜브</a></li>
             <li><a href="#FnQ" title="FnQ">FnQ</a></li>
+            <li><a href="#dis" title="디스코드">디스코드</a></li>
+            <li><a href="#ark" title="아카이브">아카이브</a></li>
+            <li><a href="#rib" title="라이브러리">라이브러리</a></li>
+            <li><a href="#ema" title="이메일">이메일</a></li>
         </ul>
 
-        <div class= "see">
-            <div class="font-I">
-안녕하세요 라비입니다.<!--<br>
-<br>
-프로젝트 공유 주기: 2주<br>
-스크래치 접속 주기: 2일<br>
-카러플 접속 주기: 되도록 매일<br>
-영상 독학: 미뤄둠<br>
-fl studio 독학: 되도록 2일<br>
-코딩(html, css, js, py) 독학: 불규칙<br>
-유튜브 동영상 업로드 주기: 불규칙<br>
-유튜브 스트리밍 주기: 불규칙, 추후에 주마다 시행 할 예정<br>
-<br>
-관심분야: 보고 듣는걸 창조하는 것-->
-            </div>
+        <a href="#menu">메뉴</a>
 
-            <a href="https://discord.gg/t8jtUfp" title="디스코드 친구추가">
-                <figure class="snip1432"><img src="Imgs/btn-I.png"></figure>
-            </a>
-            <a href="mailto:npt1237@gmail.com" title= "이메일 보내기">
-                <figure class="snip1432"><img src="Imgs/btn-II.png"></figure>
-            </a>
+        <div class= "see">
+            <div class="font-I">안녕하세요 저는 라비입니다.</div>
         </div>
     </body>
 </html>
