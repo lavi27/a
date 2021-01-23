@@ -1,6 +1,6 @@
-This is my website!!! :>>>>>>>
-이건 제 웹사이트에요!!! :>>>>>>>
+THIS is my websitee!!! :>>>>>>>
+이건 제 웹싸이트에오!!! :>>>>>>>
 
-laviⓒ 2020 ~ 2021
+laviⓒ 2020 ~ foreverrrrrrr
 
 email : npt1237@gmail.com
