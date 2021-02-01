@@ -1,71 +1,49 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="ko">
     <head>
         <meta charset="UTF-8">
         <title>라비의 홈페이지</title>
         <link rel="shortcut icon" href="favicon.ico">
-        <style>
-
-            body {
-                background-color: #222;
-            }
-
-            @font-face{ font-family:'NotoSans-Thin'; src: url('Fonts/NotoSansCJKkr-Thin.otf'); }
-            @font-face{ font-family:'NotoSans-Bold'; src: url('Fonts/NotoSansCJKkr-Bold.otf'); }
-
-            .font-I {
-                color: #fff;
-                font-family: 'NotoSans-Thin';
-                font-size: 30px
-            }
-
-            ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                background: linear-gradient( to left, #FF03E2, #03AAFE );   
-            }
-
-            ul:after {
-                content:'';
-                display: block;
-                clear:both;
-            }
-
-            li{ float: right; }
-
-            li a {
-                display: block;
-                color: white;
-                font-family: 'NotoSans-Bold';
-                text-align: center;
-                padding: 10px;
-                font-size: 16px;
-                text-decoration: none;
-            }
-
-            .active{ background-color: #0004; }
-
-            li a:hover:not(.active){ background-color: #0002; }
-            
-        </style>
-        <script>
-        </script>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
 
     <body>
-        <ul>
-            <li><a href="/a/">소개</a></li>
-            <li><a href="/a/https://www.patreon.com/lavi27">후원</a></li>
-            <li><a href="/a/youtube">영상들</a></li>
-            <li><a href="/a/faq">질답</a></li>
-            <li><a href="/a/ribrary">라이브러리</a></li>
-            <li><a href="/a/account">계정들</a></li>
-            <li><a href="/a/collabo">참여합작</a></li>
+        <ul class="navbar">
+            <li class="navitem-empty1"><a></a></li>
+            <li class="navitem"><a><img src="Imgs/simbol-256.png" height="20"></a></li>
+            <li class="navitem"><a href="">소개</a></li>
+            <li class="navitem"><a href="https://www.patreon.com/lavi27">후원</a></li>
+            <li class="navitem"><a href="pages/videos.html">영상</a></li>
+            <li class="navitem"><a href="/a/pages/faq.html">질답</a></li>
+            <li class="navitem"><a href="/a/pages/lecture.html">강의</a></li>
+            <li class="navitem"><a href="/a/pages/program.html">프로그램</a></li>
+            <li class="navitem"><a href="/a/pages/outsourcing.html">외주</a></li>
+            <li class="navitem-empty2"> <a></a></li>
+            <li class="navitem"><a onclick="alert('준비중입니다.');" style="cursor:pointer;"><img src="Imgs/sun.svg" height="20"></a></li>
+            <li class="navitem langset" href="#"><a onclick="alert('준비중입니다.');" style="cursor:pointer;"><img src="Imgs/language.svg" height="20"></a></li>
+            <ul class="sub">
+                    <li><a href="#">한국어</a></li>
+                    <li><a href="#">영어</a></li>
+                </ul>
+            <li class="navitem-empty1"> <a></a> </li>
         </ul>
 
-        <div class="font-I">안녕하세요 저는 라비입니다.<br>
+        <div class="content">
+            <p style="font-family:NotoSans-Thin;">
+                2007.8.6 남자 <a href="https://discord.gg/t8jtUfp">디스코드서버</a><br>
+                <br>
+                스크래치 닉네임은 npt1237이지만 지금은 lavi 라는 가명을 사용하고 있습니다.<br>
+                <br>
+                부계정들<br>
+                <a href="https://scratch.mit.edu/users/ds16a09/">ds16a09</a> 미사용<br>
+                <a href="https://scratch.mit.edu/users/catcat100/">catcat100</a> 미사용<br>
+                <a href="https://scratch.mit.edu/users/ccaattt/">ccaattt</a> 간단작 및 실험작 업로드<br>
+                <a href="https://scratch.mit.edu/users/lavi_archive/">lavi_archive</a> 웹사이트 관련<br>
+                <br>
+                사용했던 닉네임<br>
+                ds16a09 - catcat100 - npt1237 - dps100 - npt1237 - lavi - lavi(npt1237)
+            </p>
         </div>
     </body>
 </html>

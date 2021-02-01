@@ -1,0 +1,75 @@
+@font-face{ font-family:'NotoSans-Thin'; src: url('Fonts/NotoSansCJKkr-Thin.otf'); }
+@font-face{ font-family:'NotoSans-Bold'; src: url('Fonts/NotoSansCJKkr-Bold.otf'); }
+
+body {
+    background-color: #fff;
+    margin: 0;
+}
+
+.navbar {
+    background: linear-gradient(to left, #FF03E2, #03AAFE);
+    box-shadow: 0px -20px 50px 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+}
+.navbar:after {
+    content:'';
+    display: block;
+    clear:both;
+}
+
+.navitem {
+    flex-grow: 1;
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.4));
+}
+
+.navitem-empty1 {
+    flex-grow: 15;
+}
+
+.navitem-empty2 {
+    flex-grow: 40;
+}
+
+.sub {
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.4));
+    display: none;
+    top: 100px;
+    left:100px;
+}
+
+.langset {
+    position: relative;
+}
+.langset a:hover:not(.active) .sub {
+    display: block;
+}
+
+.navitem a {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'NotoSans-Bold';
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    margin: 0px;
+}
+.navitem a:hover:not(.active) {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.content {
+    margin-top: 60px;
+    color: #000;
+    font-size: 30px;
+}
