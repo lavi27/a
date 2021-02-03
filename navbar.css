@@ -1,12 +1,17 @@
 @font-face{ font-family:'NotoSans-Bold'; src: url('Fonts/NotoSansCJKkr-Bold.otf'); }
-@medua screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
+    .navitem-empty1 {
+        flex-grow: 15;
+    }
     
-}
-@medua screen and (min-width: 768) and (max-width: 1023px) {
+    .navitem-empty2 {
+        flex-grow: 40;
+    }
     
-}
-@medua screen and (min-width: 1024) {
-
+    .navitem-empty3 {
+        flex-grow: 1;
+    }
+    
 }
 
 .navbar {
@@ -33,18 +38,6 @@
 .navitem {
     flex-grow: 1;
     filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.4));
-}
-
-.navitem-empty1 {
-    flex-grow: 15;
-}
-
-.navitem-empty2 {
-    flex-grow: 40;
-}
-
-.navitem-empty3 {
-    flex-grow: 1;
 }
 
 .navitem a {

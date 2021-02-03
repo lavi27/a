@@ -13,15 +13,3 @@ body {
     list-style-type: none;
     justify-content: center;
 }
-
-@medua screen and (max-width: 767px) {
-    
-}
-@medua screen and (min-width: 768) and (max-width: 1023px) {
-    
-}
-@medua screen and (min-width: 1024) {
-    .maincontent {
-        flex-grow: 1;
-    }
-}
