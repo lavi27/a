@@ -5,11 +5,33 @@ body {
     margin: 0;
 }
 
-.content {
-    display: flex;
+.content1 {
     margin-top: 60px;
     color: #000;
     font-size: 30px;
     list-style-type: none;
+    font-family: NotoSans-Thin;
+
+    display: flex;
+    flex-basis: 0;
     justify-content: center;
+}
+
+.content2 {
+    margin-top: 60px;
+    color: #000;
+    font-size: 30px;
+    list-style-type: none;
+    font-family: NotoSans-Thin;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 200px);
+    justify-content: center;
+}
+
+.maincontentl {
+}
+
+.maincontentr {
 }
