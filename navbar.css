@@ -1,30 +1,20 @@
-@font-face{ font-family:'NotoSans-Bold'; src: url('Fonts/NotoSansCJKkr-Bold.otf'); }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
 
 @media screen and (min-width: 768px) {
-    .navitem-empty1 {
-        flex-grow: 15;
-    }
-    
-    .navitem-empty2 {
-        flex-grow: 40;
-    }
-    
-    .navitem-empty3 {
-        flex-grow: 1;
-    }
-    
 }
 
-.navbar {
+.navbar1 {
     background: linear-gradient(to left, #FF03E2, #03AAFE);
     box-shadow: 0px -30px 50px 15px;
     width: 100%;
+}
+
+.navbar1 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 0;
     padding: 0;
-    list-style-type: none;
     position: fixed;
     top: 0;
     align-items: center;
@@ -40,25 +30,23 @@
 .navitem {
     flex-grow: 1;
     filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.5));
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0px;
 }
 
 .navitem a {
     text-align: center;
-    text-decoration: none;
-    color: #fff;
-    font-family: 'NotoSans-Bold';
-    font-size: 16px;
     display: block;
-    padding: 10px;
-    margin: 0px;
 }
 .navitem a:hover:not(.active) {
     background-color: rgba(0, 0, 0, 0.15);
 }
 
-.langset {
-    position: relative;
-}
 .langset a:hover:not(.active) .sub {
     display: block;
 }
