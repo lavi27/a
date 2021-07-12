@@ -5,7 +5,7 @@
     box-shadow: 0px -30px 50px 15px;
     width: 100%;
     display: flex;
-    padding: 15px 40px;
+    padding: 0px 40px;
     position: fixed;
     top: 0;
     justify-content: center;
@@ -16,6 +16,6 @@
     color: #fff;
     text-decoration: none;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 20px;
-    margin: 0px 10px;
+    font-size: 25px;
+    margin: 10px 30px;
 }
